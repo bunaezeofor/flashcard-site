@@ -1,21 +1,32 @@
-.clickable {
-  color: #466d55;
+body {
+  background-color: #d7ead0;
 }
 
-.clickable.hover {
-color: #36b567;
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
 }
 
-.initiallyHidden {
-  display: none;
+h1, h2  {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 
 p {
   display: none;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  margin-left: 40px;
 }
 
 li {
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
 }
