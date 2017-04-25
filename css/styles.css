@@ -12,4 +12,10 @@ color: #36b567;
 
 p {
   display: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
