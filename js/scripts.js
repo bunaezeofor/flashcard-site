@@ -1,16 +1,19 @@
 $(document).ready(function() {
-  $("button#light").click(function() {
-    $("body").removeClass();
-    $("body").addClass("light-background");
+  $("li#JavaScript").click(function() {
+  $("p").removeClass();
+  $("p#jsdef").toggle();
   });
-
-  $("button#dark").click(function() {
-    $("body").removeClass();
-    $("body").addClass("dark-background");
+  $("li#Operators").click(function() {
+  $("p").removeClass();
+  $("p#opdef").toggle();
   });
-
-  $("p#highlight").click(function() {
-    $("body").removeClass();
-    $("p#highlight").addClass("border");
+  $("li#Variables").click(function() {
+  $("p").removeClass();
+  $("p#vardef").toggle();
+  });
+  $("li#Conventions").click(function() {
+  $("p").removeClass();
+  $("p#condef").toggle();
+  $("li").children("p").hide()
   });
 });
